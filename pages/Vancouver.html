@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Home - Nav Example</title>
+</head>
+
+<body>
+    <header aria-label="Header Information">
+        <nav aria-label="Navigation ELement">
+            <a href="../index.html" class="logo"><img src="../assets/imgs/canada-flag.jpg" alt="logo"></a>
+            <span></span>
+            <ul class="menu">
+                <li><a href="../index.html" class="navlink">Toronto</a></li>
+                <li><a href="./Vancouver.html" class="navlink" id="current_page">Vancouver</a></li>
+                <li><a href="./Montreal.html" class="navlink">Montreal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main aria-label="Main Information">
+        <div class="container">
+            <div id="vancouver">
+                <img src="../assets/imgs/vancouver.jpg" style="width: 500px;" alt="float image on right">
+                    <h1>Vancouver</h1>
+                    <p>Vancouver is a stunning coastal city in British Columbia, Canada, nestled between the Pacific Ocean and the majestic Coast Mountains.
+                         Known for its breathtaking natural beauty and progressive urban lifestyle,
+                         Vancouver offers a unique blend of outdoor adventure, cultural richness, and economic vitality.</p>
+                    <p>Vancouver is one of the most ethnically diverse cities in Canada. Over 40% of its residents are immigrants, 
+                        representing a wide range of cultures, languages, and religions. 
+                        The city embraces multiculturalism as a cornerstone of its identity, with vibrant neighborhoods like Punjabi Market,
+                         Chinatown, and Commercial Drive showcasing global traditions and cuisines.
+                    </p>
+            </div>
+        </div>
+    </main>
+    <footer aria-label="Footer Information">
+        <nav aria-label="Footer Navigation">
+            <ul>
+                <li id="footerLink"><a class="navlink" href="#">FAQ</a></li>
+                <li id="footerLink"><a class="navlink" href="#">Terms</a></li>
+                <li id="footerLink"><a class="navlink" href="#">Privacy</a></li>
+                <li id="footerLink"><a class="navlink" href="#">Cookies</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <p>&copy; <time datetime="2025-01-01">2025</time> Gustavo. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    padding: 10px 10px 10px 10px;
+    background-color: #c74949;
+    min-width: 100%;
+    top: 0;
+}
+
+header nav {
+    background-color: #c74949;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+.logo {
+    display: inline-block;
+    background-color: white;
+}
+
+header nav>a img {
+    width: 32px;
+    height: auto;
+}
+
+header nav>a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+header nav ul {
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+header nav ul,
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li {
+    margin-right: 16px;
+}
+
+header nav>span {
+    display: inline-block;
+    width: calc(100% - 45px - 256px - 2px - 16px);
+}
+
+header nav ul li:last-child {
+    margin-right: 0px;
+}
+
+.container {
+    overflow: scroll;
+    clear: both;
+    margin: 5px;
+    width: auto;
+    height: 620px;
+    padding: 20px;
+    border: 2px solid #c74949;
+}
+
+#toronto {
+    overflow: hidden;
+}
+
+#toronto img {
+    float: left;
+    margin-right: 20px;
+    width: auto;
+    height: auto;
+}
+
+
+#vancouver {
+    overflow: hidden;
+}
+
+#vancouver img {
+    float: right;
+    margin-right: 20px;
+    width: auto;
+    height: auto;
+}
+
+#montreal {
+    overflow: hidden;
+}
+
+#montreal img {
+    float: both;
+    margin-right: 20px;
+    width: auto;
+    height: auto;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    padding-top: 5px;
+}
+
+.menu>li {
+    position: relative;
+}
+
+.menu>li>a {
+    text-decoration: none;
+}
+
+.dropdown {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    background-color: #7c7979;
+    padding: 5px;
+    display: none;
+}
+
+.dropdown li {
+    margin: 5px 0;
+}
+
+
+.menu li:hover .dropdown {
+    display: block;
+}
+
+.navlink:link,
+.navlink:visited {
+    color: black;
+}
+
+.navlink:hover {
+    color: orange
+}
+
+.navlink:active {
+    color: green;
+}
+
+.navlink[href] #current_page {
+    color: aquamarine;
+}
+
+main {
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+main aside div ul li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+
+/* footer */
+footer {
+    position: bottom;
+    bottom: 0;
+    background: var(--light);
+    text-align: center;
+    font-size: 15px;
+    height: 16vh;
+    color: white;
+    background-color: #c74949;
+}
+
+footer nav ul,
+footer nav ul li {
+    display: inline-block;
+}
+
+footer nav>a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer nav ul {
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+#footerLink {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    font-size: x-large;
+    display: inline-block;
+}
+
+hr {
+    size: 2;
+    padding-right: 100px;
+    text-align: center;
+}
+
+p {
+    font-size: 35px;
+}
+
+h1 {
+    font-size: 50px;
+}
